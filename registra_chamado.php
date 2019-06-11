@@ -11,11 +11,10 @@
   
   $text = $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
 
-
-  // Criando o arquivo
+  // Abrindo o arquivo
   $arquivo = fopen('arquivo.txt', 'a');
 
-  // Abrindo o arquivo
+  // Escrevendo o arquivo
   fwrite($arquivo, $text);
 
   // Fechando o arquivo

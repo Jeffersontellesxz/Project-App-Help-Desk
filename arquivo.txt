@@ -1,3 +1,4 @@
 Defeito#Hardware#pc nao liga
 Nao imprime#Impressora#nao imprime
 telefone#Software#telefone com defeito
+Rede nao abre#Rede#Internet nao funciona
