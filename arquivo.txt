@@ -1,4 +1,2 @@
-Defeito#Hardware#pc nao liga
-Nao imprime#Impressora#nao imprime
-telefone#Software#telefone com defeito
-Rede nao abre#Rede#Internet nao funciona
+3#Jose Chamado#Impressora#teste teste teste
+4#Maria Chamado#Rede#teste teste teste

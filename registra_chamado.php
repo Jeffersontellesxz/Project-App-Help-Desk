@@ -1,15 +1,13 @@
 <?php
 
-  echo '<pre>';
-    print_r($_POST);
-  echo '</pre>';
+  session_start();
 
   // Montagem do texto
   $titulo = str_replace('#', '-', $_POST['titulo']);
   $categoria = str_replace('#', '-', $_POST['categoria']);
   $descricao = str_replace('#', '-', $_POST['descricao']);
   
-  $text = $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
+  $text = $_SESSION['id'] . '#' . $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
 
   // Abrindo o arquivo
   $arquivo = fopen('arquivo.txt', 'a');
